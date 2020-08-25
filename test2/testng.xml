@@ -3,7 +3,11 @@
 <suite name="Suite-3" verbose="1">
     <test name="all-packages">
     <packages>
-        <package name=".*" />
+        <package name="test_selenium.test2" />
+        <package name="addPeople" />
+        <package name="addEquipment" />
+        <package name="addPlans" />
+        
     </packages>
     </test>
 </suite>

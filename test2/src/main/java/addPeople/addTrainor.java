@@ -125,6 +125,17 @@ public class addTrainor {
 	       phone.sendKeys("1234567890");
 	       
 	       driver.findElement(By.xpath("//input[@class='btn btn-primary']")).click();
+	       	
+	       Thread.sleep(500);
+	       
+	       driver.findElement(By.xpath("//a[contains(text(),'Dashboard')]")).click();
+	       
+	       
+	       driver.findElement(By.xpath("//a[contains(text(),'Dashboard')]")).click();
+	       
+	       driver.findElement(By.xpath("//a[contains(text(),'Dashboard')]")).click();
+	       
+	       Thread.sleep(200);
 	       
 	       
 	       driver.findElement(By.xpath("//button[contains(text(),'Add Trainer')]")).click();
