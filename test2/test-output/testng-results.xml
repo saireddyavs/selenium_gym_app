@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite-3" duration-ms="273771" started-at="2020-08-20T15:17:06Z" finished-at="2020-08-20T15:21:40Z">
+    <groups>
+    </groups>
+    <test name="all-packages" duration-ms="273771" started-at="2020-08-20T15:17:06Z" finished-at="2020-08-20T15:21:40Z">
+      <class name="test_selenium.test2.App">
+        <test-method status="PASS" signature="test()[pri:0, instance:test_selenium.test2.App@27c86f2d]" name="test" duration-ms="28234" started-at="2020-08-20T20:51:11Z" finished-at="2020-08-20T20:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- test_selenium.test2.App -->
+      <class name="addPeople.addReciptionist">
+        <test-method status="PASS" signature="test()[pri:0, instance:addPeople.addReciptionist@501edcf1]" name="test" duration-ms="50381" started-at="2020-08-20T20:47:58Z" finished-at="2020-08-20T20:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- addPeople.addReciptionist -->
+      <class name="addPeople.addTrainor">
+        <test-method status="PASS" signature="test()[pri:0, instance:addPeople.addTrainor@78b729e6]" name="test" duration-ms="58617" started-at="2020-08-20T20:48:48Z" finished-at="2020-08-20T20:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- addPeople.addTrainor -->
+      <class name="addEquipment.addEquipment">
+        <test-method status="PASS" signature="f()[pri:0, instance:addEquipment.addEquipment@1d76aeea]" name="f" duration-ms="52048" started-at="2020-08-20T20:47:06Z" finished-at="2020-08-20T20:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- addEquipment.addEquipment -->
+      <class name="addPlans.addPlans">
+        <test-method status="PASS" signature="f()[pri:0, instance:addPlans.addPlans@6b4a4e18]" name="f" duration-ms="84442" started-at="2020-08-20T20:49:47Z" finished-at="2020-08-20T20:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- addPlans.addPlans -->
+    </test> <!-- all-packages -->
+  </suite> <!-- Suite-3 -->
+</testng-results>
