@@ -18,7 +18,7 @@ public class addTrainor {
 			  ChromeOptions.addArguments("--headless", "--no-sandbox");
 			   driver=new ChromeDriver(ChromeOptions);
 		   
-		   driver.get("http://13.127.16.30");
+		   driver.get(System.getenv("deployed_ip"));
 		   
 		   driver.findElement(By.xpath("//a[contains(text(),'Login')]")).click();
 		   
