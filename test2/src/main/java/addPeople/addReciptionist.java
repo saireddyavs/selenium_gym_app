@@ -41,10 +41,10 @@ public class addReciptionist {
 		   Thread.sleep(500);
 //		   
 		   driver.findElement(By.xpath("//a[contains(text(),'Dashboard')]")).click();
-//	       
+		   Thread.sleep(200);
 //	       
 	       driver.findElement(By.xpath("//button[contains(text(),'Add Receptionist')]")).click();
-//	       
+	       Thread.sleep(200);
 //	       
 	        name= driver.findElement(By.xpath("//input[@id='name']"));
 //	       
@@ -81,6 +81,52 @@ public class addReciptionist {
 	       phone.sendKeys("1234567890");
 	       
 	       driver.findElement(By.xpath("//input[@class='btn btn-primary']")).click();
+	       
+	       
+	       Thread.sleep(500);
+//		   
+		   driver.findElement(By.xpath("//a[contains(text(),'Dashboard')]")).click();
+		   Thread.sleep(200);
+//	       
+	       driver.findElement(By.xpath("//button[contains(text(),'Add Receptionist')]")).click();
+	       Thread.sleep(200);
+//	       
+	        name= driver.findElement(By.xpath("//input[@id='name']"));
+//	       
+	       username= driver.findElement(By.xpath(" //input[@id='username']"));
+//	       
+	        password= driver.findElement(By.xpath("//input[@id='password']"));
+	        Confirm_password= driver.findElement(By.xpath("//input[@id='confirm']"));
+	       street= driver.findElement(By.xpath("//input[@id='street']"));
+	       city= driver.findElement(By.xpath("//input[@id='city']"));
+	        phone= driver.findElement(By.xpath(" //input[@id='phone']"));
+	       
+	       
+	       
+	       name.click();
+	       Thread.sleep(200);
+	       name.sendKeys("receptionist2");
+	       username.click();
+	       Thread.sleep(200);
+	       username.sendKeys("receptionist2");
+	       password.click();
+	       Thread.sleep(200);
+	       password.sendKeys("receptionist2");
+	       Confirm_password.click();
+	       Thread.sleep(200);
+	       Confirm_password.sendKeys("receptionist2");
+	       street.click();
+	       Thread.sleep(200);
+	       street.sendKeys("receptionist2 street");
+	       city.click();
+	       Thread.sleep(200);
+	       city.sendKeys("receptionist2 city");
+	       phone.click();
+	       Thread.sleep(200);
+	       phone.sendKeys("1234567890");
+	       
+	       driver.findElement(By.xpath("//input[@class='btn btn-primary']")).click();
+	       
 	       
 	       Thread.sleep(2000);
 		  
