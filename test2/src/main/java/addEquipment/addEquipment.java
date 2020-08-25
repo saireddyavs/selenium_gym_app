@@ -13,7 +13,7 @@ public class addEquipment  {
 	  WebDriver driver;
 	  
 	  
-	  System.setProperty("webdriver.chrome.driver", "D:\\devops\\testng\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 	   driver=new ChromeDriver();
 	   
 	   driver.get("http://13.127.16.30");
